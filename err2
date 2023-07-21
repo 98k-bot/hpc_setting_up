@@ -1,0 +1,47 @@
+
+	OpenMPI environment loaded.
+--------------------------------------------------------------------------
+No executable was specified on the mpirun command line.
+
+Aborting.
+--------------------------------------------------------------------------
+2023-07-20 16:59:11.275475: I tensorflow/compiler/jit/xla_cpu_device.cc:41] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2023-07-20 16:59:11.278493: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  SSE4.1 SSE4.2 AVX AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2023-07-20 16:59:11.284355: I tensorflow/core/common_runtime/process_util.cc:146] Creating new thread pool with default inter op setting: 2. Tune using inter_op_parallelism_threads for best performance.
+2023-07-20 16:59:11.285723: I tensorflow/core/common_runtime/process_util.cc:146] Creating new thread pool with default inter op setting: 2. Tune using inter_op_parallelism_threads for best performance.
+Traceback (most recent call last):
+  File "/common/zhanh/hpc_testing_zhanh/tensorflow_testing.py", line 11, in <module>
+    print(sess.run(hello))
+  File "/common/zhanh/anaconda3/envs/tf_test_zhanh/lib/python3.9/site-packages/tensorflow/python/client/session.py", line 967, in run
+    result = self._run(None, fetches, feed_dict, options_ptr,
+  File "/common/zhanh/anaconda3/envs/tf_test_zhanh/lib/python3.9/site-packages/tensorflow/python/client/session.py", line 1116, in _run
+    raise RuntimeError('The Session graph is empty.  Add operations to the '
+RuntimeError: The Session graph is empty.  Add operations to the graph before calling run().
+rm: cannot remove '/localscratch/718941.1.all.q/rsh': No such file or directory
+
+	OpenMPI environment loaded.
+--------------------------------------------------------------------------
+No executable was specified on the mpirun command line.
+
+Aborting.
+--------------------------------------------------------------------------
+2023-07-20 17:00:52.954840: I tensorflow/compiler/jit/xla_cpu_device.cc:41] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2023-07-20 17:00:52.958307: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  SSE4.1 SSE4.2 AVX AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2023-07-20 17:00:52.965076: I tensorflow/core/common_runtime/process_util.cc:146] Creating new thread pool with default inter op setting: 2. Tune using inter_op_parallelism_threads for best performance.
+2023-07-20 17:00:52.966243: I tensorflow/core/common_runtime/process_util.cc:146] Creating new thread pool with default inter op setting: 2. Tune using inter_op_parallelism_threads for best performance.
+rm: cannot remove '/localscratch/718942.1.all.q/rsh': No such file or directory
+
+	OpenMPI environment loaded.
+--------------------------------------------------------------------------
+No executable was specified on the mpirun command line.
+
+Aborting.
+--------------------------------------------------------------------------
+2023-07-20 17:10:55.079278: I tensorflow/compiler/jit/xla_cpu_device.cc:41] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2023-07-20 17:10:55.083458: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  SSE4.1 SSE4.2 AVX AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2023-07-20 17:10:55.090251: I tensorflow/core/common_runtime/process_util.cc:146] Creating new thread pool with default inter op setting: 2. Tune using inter_op_parallelism_threads for best performance.
+2023-07-20 17:10:55.091644: I tensorflow/core/common_runtime/process_util.cc:146] Creating new thread pool with default inter op setting: 2. Tune using inter_op_parallelism_threads for best performance.
+rm: cannot remove '/localscratch/718944.1.all.q/rsh': No such file or directory

@@ -1,0 +1,56 @@
+2023-07-20 17:57:43.121177: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.10.1
+Downloading data from https://storage.googleapis.com/tensorflow/tf-keras-datasets/mnist.npz
+    8192/11490434 [..............................] - ETA: 0s 5701632/11490434 [=============>................] - ETA: 0s11493376/11490434 [==============================] - 0s 0us/step
+2023-07-20 17:57:53.015405: I tensorflow/compiler/jit/xla_cpu_device.cc:41] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2023-07-20 17:57:53.016669: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcuda.so.1
+2023-07-20 17:57:53.054036: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1720] Found device 0 with properties: 
+pciBusID: 0000:48:00.0 name: NVIDIA A100 80GB PCIe computeCapability: 8.0
+coreClock: 1.41GHz coreCount: 108 deviceMemorySize: 79.35GiB deviceMemoryBandwidth: 1.76TiB/s
+2023-07-20 17:57:53.054064: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.10.1
+2023-07-20 17:57:53.122590: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.10
+2023-07-20 17:57:53.122619: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublasLt.so.10
+2023-07-20 17:57:53.155260: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcufft.so.10
+2023-07-20 17:57:53.166710: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcurand.so.10
+2023-07-20 17:57:53.229442: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusolver.so.10
+2023-07-20 17:57:53.240897: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusparse.so.10
+2023-07-20 17:57:53.344383: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudnn.so.7
+2023-07-20 17:57:53.344956: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1862] Adding visible gpu devices: 0
+2023-07-20 17:57:53.345989: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  SSE4.1 SSE4.2 AVX AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2023-07-20 17:57:53.346796: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2023-07-20 17:57:53.347084: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1720] Found device 0 with properties: 
+pciBusID: 0000:48:00.0 name: NVIDIA A100 80GB PCIe computeCapability: 8.0
+coreClock: 1.41GHz coreCount: 108 deviceMemorySize: 79.35GiB deviceMemoryBandwidth: 1.76TiB/s
+2023-07-20 17:57:53.347097: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.10.1
+2023-07-20 17:57:53.347107: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.10
+2023-07-20 17:57:53.347114: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublasLt.so.10
+2023-07-20 17:57:53.347120: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcufft.so.10
+2023-07-20 17:57:53.347126: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcurand.so.10
+2023-07-20 17:57:53.347131: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusolver.so.10
+2023-07-20 17:57:53.347137: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusparse.so.10
+2023-07-20 17:57:53.347149: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudnn.so.7
+2023-07-20 17:57:53.347606: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1862] Adding visible gpu devices: 0
+2023-07-20 17:57:53.348327: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.10.1
+2023-07-20 18:03:51.654529: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1261] Device interconnect StreamExecutor with strength 1 edge matrix:
+2023-07-20 18:03:51.654560: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1267]      0 
+2023-07-20 18:03:51.654566: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1280] 0:   N 
+2023-07-20 18:03:51.656514: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1406] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 75844 MB memory) -> physical GPU (device: 0, name: NVIDIA A100 80GB PCIe, pci bus id: 0000:48:00.0, compute capability: 8.0)
+2023-07-20 18:03:51.661853: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2023-07-20 18:03:51.662148: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1720] Found device 0 with properties: 
+pciBusID: 0000:48:00.0 name: NVIDIA A100 80GB PCIe computeCapability: 8.0
+coreClock: 1.41GHz coreCount: 108 deviceMemorySize: 79.35GiB deviceMemoryBandwidth: 1.76TiB/s
+2023-07-20 18:03:51.662167: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.10.1
+2023-07-20 18:03:51.662191: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.10
+2023-07-20 18:03:51.662201: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublasLt.so.10
+2023-07-20 18:03:51.662210: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcufft.so.10
+2023-07-20 18:03:51.662218: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcurand.so.10
+2023-07-20 18:03:51.662225: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusolver.so.10
+2023-07-20 18:03:51.662233: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusparse.so.10
+2023-07-20 18:03:51.662242: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudnn.so.7
+2023-07-20 18:03:51.662676: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1862] Adding visible gpu devices: 0
+2023-07-20 18:03:51.662693: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1261] Device interconnect StreamExecutor with strength 1 edge matrix:
+2023-07-20 18:03:51.662697: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1267]      0 
+2023-07-20 18:03:51.662700: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1280] 0:   N 
+2023-07-20 18:03:51.663159: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1406] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 75844 MB memory) -> physical GPU (device: 0, name: NVIDIA A100 80GB PCIe, pci bus id: 0000:48:00.0, compute capability: 8.0)
+TensorFlow version: 2.4.1
+sess.run(hello)
